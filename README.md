@@ -21,7 +21,7 @@ jobs:
           role-name: "your role name"
           version: "v0.0.1"
           service-name: "your service name"
-          iac: "terraform ? cloudformation ?"
+          iac: "iac zip file to unzip. Regex build base on *-$iac.zip"
           bucket-name: "artifact name"
           destination-folder: "deployment-folder"
 ```

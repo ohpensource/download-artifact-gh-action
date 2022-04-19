@@ -1,4 +1,4 @@
-name: "download-artifact"
+name: "download-artifact-gh-action"
 description: "downloads the artifact(s) of an application and stores them locally into a folder"
 inputs:
   region:
