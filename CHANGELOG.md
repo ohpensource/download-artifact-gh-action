@@ -1,3 +1,9 @@
+# :confetti_ball: 0.0.4 (2022-05-11T09:49:23.995Z)
+- - -
+## :newspaper: Others
+* Delete .github/CODEOWNERS
+- - -
+- - -
 # :confetti_ball: 0.0.3 (2022-04-21T07:25:15.559Z)
 - - -
 ## :bug: Fixes
