@@ -4,6 +4,7 @@ on:
     branches: [main]
 
 jobs:
+
   conventional-commits:
     runs-on: ubuntu-latest
     steps:
@@ -15,6 +16,7 @@ jobs:
         with:
           base-branch: $GITHUB_BASE_REF
           pr-branch: $GITHUB_HEAD_REF
+
   jira-tickets-commits:
     runs-on: ubuntu-latest
     steps:
@@ -26,6 +28,7 @@ jobs:
         with:
           base-branch: $GITHUB_BASE_REF
           pr-branch: $GITHUB_HEAD_REF
+
   documentation:
     runs-on: ubuntu-latest
     steps:
