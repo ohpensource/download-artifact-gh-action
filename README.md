@@ -3,10 +3,8 @@
 This action will recursively download and unzip a folder from s3 bucket containing your service artifact(s). Here is an example on how to use it:
 
 ```yaml
-
 env:
   REGION: "eu-west-1"
-
 
 jobs:
   download-artifacts:
